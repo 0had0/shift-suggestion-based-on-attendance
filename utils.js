@@ -1,5 +1,3 @@
-// type Vector = { start: float, end: float };
-
 export const int_from_dayjs_time = (dayjsObjt) => {
   if (!dayjsObjt?.isValid?.()) {
     throw new Error("[dayjs to number failure]: Invalid dayjs object given");
