@@ -1,0 +1,34 @@
+{
+  "name": "shift-suggestion-based-on-attendance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0had0/shift-suggestion-based-on-attendance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0had0/shift-suggestion-based-on-attendance/issues"
+  },
+  "homepage": "https://github.com/0had0/shift-suggestion-based-on-attendance#readme",
+  "dependencies": {
+    "dayjs": "^1.11.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-jest": "^28.1.0",
+    "flow-bin": "^0.178.0",
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.16"
+  }
+}
